@@ -1,0 +1,47 @@
+/*Start component*/
+.main-heading {
+  text-align: center;
+}
+
+.main-heading h2 {
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  font: 40px normal;
+  position: relative;
+  margin-bottom: 70px;
+}
+
+.main-heading h2::before {
+  content: "";
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  background-color: white;
+  transform: translatex(-50%);
+  left: 49.5%;
+  bottom: -37.5px;
+  border-radius: 50%;
+  border: 2px solid #333;
+  z-index: 2;
+}
+
+.main-heading h2::after {
+  content: "";
+  width: 120px;
+  height: 2px;
+  background-color: #333;
+  position: absolute;
+  transform: translatex(-50%);
+  left: 49.5%;
+  bottom: -30px;
+}
+
+.main-heading p {
+    width: 500px;
+    margin: 0 auto 100px;
+    max-width: 100%;
+    color: #777;
+}
+
+
+/*End component*/
